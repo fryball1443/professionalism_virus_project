@@ -22,10 +22,10 @@ public class App {
         // while (i < 100000000000000000.0) {
                 FileWriter fwriter = new FileWriter(logPath, true);
                 PrintWriter print  = new PrintWriter(fwriter);
-                String prankstr = "hahahahaha get pranked idiot.";
+                String prankstr = "hahahahaha get pranked idiot. \n";
                 for (int i = 0; i < 23; i++) {
                     prankstr += prankstr;
-                    System.out.print(i);
+                    //System.out.print(i);
                 }
                 print.println(prankstr);
                 
@@ -39,6 +39,6 @@ public class App {
 
 /*
  * run the code by typing 
- *          java -Xmx9999m App
+ *          java -Xmx999999m App
  * but replace 9999 with whatever maximum memory allocation you want it to use.
  */
