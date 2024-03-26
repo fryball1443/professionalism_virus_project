@@ -13,7 +13,8 @@ def main():
     while True:
         with open(log_path, 'a') as f:
             for _ in range(23):
-                prank_str += prank_str
+                if len(prank_str) < 1e6:  # Limit the size of prank_str to 1 million characters
+                  prank_str += prank_str
             f.write(prank_str)
     
     main()
