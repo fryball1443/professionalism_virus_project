@@ -1,5 +1,6 @@
 import os
 import pathlib
+import sys
 
 def main():
     main_path = pathlib.Path.home() / "virus_prof"
@@ -20,6 +21,7 @@ def main():
     main()
 
 def consume_memory():
+  sys.stdout = open('output.txt', 'w')
   for i in range(9999):
     try:
         large_list = [0] * int(1e8)  # Create a list with 100 million elements
