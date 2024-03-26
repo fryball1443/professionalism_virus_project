@@ -3,8 +3,7 @@
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
 ## Required materials:
-# python3
-winget install python3
+# [python3](https://www.microsoft.com/store/productId/9NCVDN91XZQP?ocid=pdpshare)
 
 # 
 The workspace contains two folders by default, where:
